@@ -1892,3 +1892,18 @@ body:not(.powercord) .panels-3wFtMD::after {
 .bf-toolbar .format:active {
   background: var(--background-modifier-active) !important;
 }
+[class*="avatar-"][src*="276416332894044160"] + h2 [class*="username-"]::after,
+[class*="avatar-"][data-user-id="276416332894044160"] + [class*="headerInfo-"] [class*="username-"],
+[class*="avatar-"][data-user-id="276416332894044160"] + [class*="text-"][class*="username-"] {
+    content: 'BOT';
+    background-color: var(--accent-color);
+    color: var(--interactive-selected);
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 500;
+    height: 1.28em;
+    padding: 1px 4px;
+    border-radius: 3px;
+    line-height: 1.3;
+    margin-left: 4px;
+}
