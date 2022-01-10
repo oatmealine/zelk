@@ -2,18 +2,19 @@
            ▄▀  █▀▀ █   █▀▄
            ▀▀▀ ▀▀▀ ▀▀▀ ▀ ▀           */
 /*--------------IMPORTS------------- */
-@import url(https://raw.githack.com/oatmealine/zelk/main/main.css);
+@use 'main';
 @import url(https://crearts-community.github.io/Settings-Icons/clients/powercord.css);
 
 /*--------------COLORS---------------*/
-/*------remove / and * to apply------*/
-/* @import url(https://raw.githack.com/oatmealine/zelk/main/colors/blue.css); */
-/* @import url(https://raw.githack.com/oatmealine/zelk/main/colors/green.css); */
-/* @import url(https://raw.githack.com/oatmealine/zelk/main/colors/gray.css); */
-/* @import url(https://raw.githack.com/oatmealine/zelk/main/colors/orange.css); */
- @import url(https://raw.githack.com/oatmealine/zelk/main/colors/purple.css); 
-/* @import url(https://raw.githack.com/oatmealine/zelk/main/colors/red.css); */
-/* @import url(https://raw.githack.com/oatmealine/zelk/main/colors/discord.css); */
+/*------remove // to apply-----------*/
+// @use 'colors/blue.css';
+// @use 'colors/green.css';
+// @use 'colors/gray.css';
+// @use 'colors/orange.css';
+@use 'colors/purple.css';
+// @use 'colors/red.css';
+// @use 'colors/discord.css';
+
 
 /*-------------VARIABLES-------------*/
 :root {
