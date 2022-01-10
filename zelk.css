@@ -2,17 +2,19 @@
            ▄▀  █▀▀ █   █▀▄
            ▀▀▀ ▀▀▀ ▀▀▀ ▀ ▀           */
 /*--------------IMPORTS------------- */
-@import url(https://schnensch0.github.io/zelk/main.css);
+@import url(https://raw.githack.com/oatmealine/zelk/main/main.css);
 @import url(https://crearts-community.github.io/Settings-Icons/clients/powercord.css);
+
 /*--------------COLORS---------------*/
 /*------remove / and * to apply------*/
-/* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/blue.css); */
-/* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/green.css); */
-/* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/gray.css); */
-/* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/orange.css); */
- @import url(https://raw.githack.com/schnensch0/zelk/main/colors/purple.css); 
-/* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/red.css); */
-/* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/discord.css); */
+/* @import url(https://raw.githack.com/oatmealine/zelk/main/colors/blue.css); */
+/* @import url(https://raw.githack.com/oatmealine/zelk/main/colors/green.css); */
+/* @import url(https://raw.githack.com/oatmealine/zelk/main/colors/gray.css); */
+/* @import url(https://raw.githack.com/oatmealine/zelk/main/colors/orange.css); */
+ @import url(https://raw.githack.com/oatmealine/zelk/main/colors/purple.css); 
+/* @import url(https://raw.githack.com/oatmealine/zelk/main/colors/red.css); */
+/* @import url(https://raw.githack.com/oatmealine/zelk/main/colors/discord.css); */
+
 /*-------------VARIABLES-------------*/
 :root {
   /* set to 'unset' to show */
@@ -28,7 +30,6 @@
   --font-display: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   --border-radius-1: 10px;
   --border-radius-2: 8px;
-  --text-link: #be9be7 !important;
 }
 /*-----------CUSTOM COLORS-----------*/
 /*-------------DARK MODE-------------*/
@@ -50,12 +51,6 @@
   --border-color: transparent;
 }
 
-.newMessagesBar-265mhP, .active-2awTSY {
-    background-color: var(--accent-color) !important;
-}
-.isUnread-3Ef-o9 {
-    border-color: #ff0000;
-}
 /*-------------ADVANCED--------------*/
 .theme-dark {
   /* background */
