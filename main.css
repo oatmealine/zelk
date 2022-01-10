@@ -1823,7 +1823,7 @@ body:not(.powercord) .panels-3wFtMD::after {
   padding: 10px;
   border-radius: var(--border-radius-1);
 }
-[class*="hljs-"]t, .hljs-quote {
+.hljs-comment, .hljs-quote {
   color: var(--text-muted);
   opacity: .5;
 }
@@ -1868,7 +1868,7 @@ body:not(.powercord) .panels-3wFtMD::after {
   background-color: var(--accent-color) !important;
 }
 [class*="isUnread-"] {
-  border-color: #ff0000;
+  border-color: var(--button-destructive);
 }
 /* BetterFormattingRedux */
 .bf-toolbar {
