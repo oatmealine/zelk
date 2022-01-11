@@ -1388,7 +1388,7 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
   color: var(--text-normal) !important;
 }
 /* home */
-[class*="containerDefault-"][class*="selected-"] {
+.containerDefault-YUSmu3.selected-2TbFuo {
   color: var(--interactive-selected);
 }
 .scroller-1JbKMe {
@@ -1725,54 +1725,6 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
 :root {
   --outdated: block;
 }
-body:not(.powercord) .panels-j1Uci_::before {
-  content: "Please update to Zelk v1.2";
-  font-weight: 600;
-  color: var(--text-normal);
-  text-align: center;
-  width: 100%;
-  height: 10px;
-  display: var(--outdated);
-  background-color: var(--background-primary);
-  padding: 10px 0 30px;
-  border-top: 1px solid var(--border-color);
-}
-body:not(.powercord) .panels-j1Uci_::after {
-  content: "Download from betterdiscord.app/theme/zelk\AGet support at discord.gg/tMEcBhsNqA";
-  white-space: pre;
-  font-size: 12px;
-  color: var(--text-muted);
-  text-align: center;
-  position: relative;
-  top: -74px;
-  width: 100%;
-  height: 0;
-  display: var(--outdated);
-}
-/* goosemod */
-.sidebarRegion-VFTUkN {
-  max-width: unset !important;
-}
-.gm-store-settings>:nth-child(5).gm-inline-dropdown {
-  margin-right: 50px;
-}
-.gm-store-search {
-  background-color: var(--background-secondary);
-  padding: 3px;
-}
-.gm-store-card {
-  box-shadow: none !important;
-}
-#gm-settings-inject {
-  margin: 0 10px;
-  border-radius: var(--border-radius-1);
-}
-#gm-settings-inject .gm-store-card, #gm-settings-inject .gm-store-card> :nth-child(1) {
-  background-color: var(--background-tertiary);
-}
-.gm-store-settings ::-webkit-scrollbar, #gm-settings-inject ::-webkit-scrollbar {
-  display: unset;
-}
 /* everything else */
 :root {
   --focus-primary: var(--accent-color);
@@ -1837,11 +1789,17 @@ body:not(.powercord) .panels-j1Uci_::after {
 .repoHeader-2KfNvH> :first-child {
   margin-bottom: 10px;
 }
-[class*="newMessagesBar-"], [class*="active-"] {
+[class*="newMessagesBar-"], .active-334r9u {
   background-color: var(--accent-color) !important;
 }
 [class*="isUnread-"] {
   border-color: var(--button-destructive);
+}
+[class*="unreadBar-"] {
+  background-color: var(--background-secondary) !important;
+}
+[class*="unreadMentionsBar-"] {
+  background-color: var(--button-destructive) !important;
 }
 /* BetterFormattingRedux */
 .bf-toolbar {
