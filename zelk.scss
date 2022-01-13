@@ -3,18 +3,18 @@
            ▀▀▀ ▀▀▀ ▀▀▀ ▀ ▀           */
 /*--------------IMPORTS------------- */
 @use 'main';
-@import url(https://crearts-community.github.io/Settings-Icons/clients/powercord.css);
 
 /*--------------COLORS---------------*/
 /*------remove // to apply-----------*/
-// @use 'colors/blue.css';
-// @use 'colors/green.css';
-// @use 'colors/gray.css';
-// @use 'colors/orange.css';
-@use 'colors/purple.css';
-// @use 'colors/red.css';
-// @use 'colors/discord.css';
+// @use 'colors/blue';
+// @use 'colors/green';
+// @use 'colors/gray';
+// @use 'colors/orange';
+@use 'colors/purple';
+// @use 'colors/red';
+// @use 'colors/discord';
 
+@import url(https://crearts-community.github.io/Settings-Icons/clients/powercord.css);
 
 /*-------------VARIABLES-------------*/
 :root {
