@@ -6,30 +6,32 @@
 
 /*--------------COLORS---------------*/
 /*------remove // to apply-----------*/
-// @use 'colors/blue.css';
-// @use 'colors/green.css';
-// @use 'colors/gray.css';
-// @use 'colors/orange.css';
-@use 'colors/purple'; 
+// @use 'colors/blue';
+// @use 'colors/green';
+// @use 'colors/gray';
+// @use 'colors/orange';
+@use 'colors/purple';
 // @use 'colors/red';
+// @use 'colors/discord';
 
-@import url(https://raw.githack.com/snappercord/Settings-Icons/main/settingsicons.css);
+@import url(https://crearts-community.github.io/Settings-Icons/clients/powercord.css);
 
 /*-------------VARIABLES-------------*/
 :root {
   /* set to 'unset' to show */
   --scrollbars: unset;
-  /* profile notes */
+  /* user notes */
   --notes: none;
   /* direct message box */
   --message: none;
+  /* set to '4px solid' to show */
+  --embed-color: none;
   /* set to 'Inter', sans-serif !important to use Inter font*/
   --font-primary: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-display: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   --border-radius-1: 10px;
   --border-radius-2: 8px;
 }
-
 /*-----------CUSTOM COLORS-----------*/
 /*-------------DARK MODE-------------*/
 /*---------------BASIC---------------*/
@@ -40,6 +42,16 @@
   --background-accent: #1e2529;
   --border-color: #273034;
 }
+
+/*-------------LIGHT MODE------------*/
+.theme-light {
+  --accent-color: #22c5fd;
+  --background-1: #ffffff;
+  --background-2: #f5f7fa;
+  --background-accent: var(--background-2);
+  --border-color: transparent;
+}
+
 /*-------------ADVANCED--------------*/
 .theme-dark {
   /* background */
@@ -89,17 +101,6 @@
   --button-destructive-hover: #ff929b;
   --button-destructive-active: #fa4a4a;
 }
-
-/*-------------LIGHT MODE------------*/
-/*---------------BASIC---------------*/
-.theme-light {
-  --accent-color: #22c5fd;
-  --background-1: #ffffff;
-  --background-2: #f5f7fa;
-  --background-accent: var(--background-2);
-  --border-color: transparent;
-}
-/*-------------ADVANCED--------------*/
 .theme-light {
   /* background */
   --background-primary: var(--background-1);
@@ -148,6 +149,3 @@
   --button-destructive-hover: #ff929b;
   --button-destructive-active: #fa4a4a;
 }
-
-/*-----------DON'T CHANGE------------*/
-:root{--outdated:none!important}

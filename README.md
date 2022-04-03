@@ -18,7 +18,7 @@ Zelk's main branch from, well, [Zelk](https://github.com/schnensch0/zelk/) by sc
 
 Inter from [rsms.me/inter](https://rsms.me/inter/)
 
-[Settings Icons](https://github.com/snappercord/Settings-Icons) for Powercord by Snapper
+[Settings Icons](https://github.com/CreArts-Community/Settings-Icons) for Powercord by CorellanStoma
 
 [Settings Icons](https://github.com/mwittrien/BetterDiscordAddons/blob/master/Themes/_res/SettingsIcons.css) for BetterDiscord by mwittrien
 
